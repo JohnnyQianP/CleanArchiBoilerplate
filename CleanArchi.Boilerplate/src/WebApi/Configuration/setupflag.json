@@ -1,0 +1,10 @@
+{
+  "SetupFlag": {
+    "EnableSQLAopOutToLogFile": true,
+    "EnableSQLAopOutToConsole": true,
+    "UseIdentityserver": false 
+  },
+  "MiddlewareFlag": {
+    "EnableMiniProfiler": true
+  }
+}

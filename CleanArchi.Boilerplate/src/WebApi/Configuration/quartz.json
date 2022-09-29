@@ -1,0 +1,7 @@
+{
+  "Quartz": {
+    "dbProviderName": "SqlServer",
+    "connectionString": "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=SpCluster;Integrated Security=True;MultipleActiveResultSets=True",
+    "Enabled": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "SecurityJWT": {
+    "Secret": "pjsfgvberyuizhecleanarchi", //不要太短，16位+
+    "Issuer": "cleanarchi",
+    "Audience": "cleanarchi",
+    "tokenExpirationInMinutes": 60,
+    "refreshTokenExpirationInDays": 7,
+    "JobExpirationInDays": 30
+  },
+  "IdentityServer4": {
+    "AuthorizationUrl": "http://localhost:5004", // 认证中心域名
+    "ApiName": "cp.api" // 资源服务器
+  }
+}

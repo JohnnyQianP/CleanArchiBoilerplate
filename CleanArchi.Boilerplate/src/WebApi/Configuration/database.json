@@ -1,0 +1,8 @@
+{
+  "DatabaseConnection": {
+    //MySql = 0,
+    //SqlServer = 1,
+    "DbType": 1,
+    "ConnectionStrings": "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=SpCluster;Integrated Security=True;MultipleActiveResultSets=True"
+  }
+}
