@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "CleanArchi",
+  "classifications": [
+    "Web",
+    ".NET6",
+    "Clean Architecture"
+  ],
+  "name": "Clean Architecture Solution",
+  "description":  "Clean Architecture Template",
+  "identity": "Clean.Archi",
+  "groupIdentity": "Clean.Archi",
+  "shortName": "CleanArchi",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "CleanArchi.Boilerplate",//替换
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "README.md",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        ".vs/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.git/**",
+        "*.nuspec",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}

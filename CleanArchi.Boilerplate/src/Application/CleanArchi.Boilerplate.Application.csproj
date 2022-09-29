@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>CleanArchi.Boilerplate.Application</RootNamespace>
+        <AssemblyName>CleanArchi.Boilerplate.Application</AssemblyName>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.4" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Domain\CleanArchi.Boilerplate.Domain.csproj" />
+        <ProjectReference Include="..\Repository\CleanArchi.Boilerplate.Repository.csproj" />
+        <ProjectReference Include="..\Shared\CleanArchi.Boilerplate.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

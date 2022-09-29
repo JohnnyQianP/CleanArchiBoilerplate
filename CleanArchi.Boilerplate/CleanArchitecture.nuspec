@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+
+    <id>Clean.Archi</id>
+    <version>1.0.0</version>
+    <title>Clean Architecture Solution</title>
+    <authors>CleanArchi</authors>
+    <description>Clean Architecture Template</description>
+    <summary>
+      Clean Architecture Template with .NET6
+    </summary>
+    <releaseNotes>TODO readme</releaseNotes>
+
+    <!--<projectUrl>https://github.com/todo</projectUrl>
+    <repository type="git" url="https://github.com/todo" branch="main" />-->
+
+    <tags>CleanArchi C# project</tags>
+    <readme>README.md</readme>
+
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+
+  </metadata>
+
+  <files>
+    <!--<file src=".template.config\icon.png" />-->
+    <file src="README.md" />
+    <file src=".\**" target="content" exclude="**\node_modules\**;**\bin\**;**\obj\**;**\.vs\**;**\.vscode\**;**\ClientApp\dist\**;**\wwwroot\dist\**;content\Directory.Build.*;**\.git\**;**\.github\**;**\CODE_OF_CONDUCT.md;**\LICENSE;**\README.md;" />
+  </files>
+
+</package>

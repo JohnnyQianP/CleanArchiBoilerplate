@@ -1,0 +1,3 @@
+docker build -t cleanarchi:v1 .
+docker run --name cleanarchi -d -p 9999:80 cleanarchi:v1
+pause

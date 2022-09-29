@@ -1,0 +1,1 @@
+.NET 6 Clean Architecture
